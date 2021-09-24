@@ -4,8 +4,10 @@ namespace Yatter.UI.ListBuilder.ListItems
     /// <summary>
     /// A list item that displays and image that is in Base64, either jpg or png.
     /// </summary>
-    public class Base64Image : ImageBase
+    public class Base64Image : ImageBase, IDataType
     {
+        public new string DataType { get; set; }
+
         public string Base64 { get; set; }
 
         private string _imagetype { get; set; }
@@ -33,7 +35,7 @@ namespace Yatter.UI.ListBuilder.ListItems
 
         public Base64Image() : base(margin: "0px 0px 0px 0px")
         {
-            DataType = "Base64Image";
+            DataType = GetType().ToString();
             Visibility = "visible";
         }
 

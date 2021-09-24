@@ -4,8 +4,10 @@ namespace Yatter.UI.ListBuilder.ListItems
     /// <summary>
     /// A list item that displays a single line of text, or wrapped lines of text.
     /// </summary>
-    public class Label : TextBase
+    public class Label : TextBase, IDataType
     {
+        public new string DataType { get; set; }
+
         public string Text { get; set; }
 
         private string _lineBreakMode;
@@ -34,7 +36,7 @@ namespace Yatter.UI.ListBuilder.ListItems
 
         public Label() : base(margin: "10px 10px 10px 10px")
         {
-            DataType = "Label";
+            DataType = GetType().ToString();
             Visibility = "visible";
             LineBreakMode = "normal";
         }
