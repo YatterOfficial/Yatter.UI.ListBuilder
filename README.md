@@ -4,7 +4,7 @@
 
 We are progressively building this solution from a custom ListView pattern that we already use in Xamarin Forms, and as you can't read our mind, you wont know from one week to another where we are going on this. So beware. We are, however, developing on various branches, and commiting approved updates to the master branch, so the master branch can be considered to have better form than the development branches. It's a winding road to Camelot!
 
-# HarryHotdog.UI.ListBuilder
+# Yatter.UI.ListBuilder
 
 This library is a collection of lightweight List ```Description``` objects that allows JSON or XML list descritions to be generated or consumed, which when used in conjunction with a renderer that is designed to render such a list on a specific platform, will allow rapid list creation without needing to know much about the underlying technologies of the specific platform that the render is used upon.
 
