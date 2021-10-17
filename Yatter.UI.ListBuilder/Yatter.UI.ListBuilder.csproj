@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageVersion>0.0.2</PackageVersion>
+    <PackageVersion>0.0.3</PackageVersion>
     <Authors>Anthony Harrison</Authors>
     <Copyright>Anthony Harrison</Copyright>
-    <PackageIconUrl>https://avatars.githubusercontent.com/u/25448533</PackageIconUrl>
+    <PackageIconUrl>https://avatars.githubusercontent.com/u/92665945</PackageIconUrl>
     <NeutralLanguage>en-GB</NeutralLanguage>
-    <PackageLicenseUrl>https://github.com/HarrisonOfTheNorth/Yatter.UI.ListBuilder/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/YatterOfficial/Yatter.UI.ListBuilder/blob/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Owners>Anthony Harrison</Owners>
-    <PackageProjectUrl>https://github.com/HarrisonOfTheNorth/Yatter.UI.ListBuilder</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/YatterOfficial/Yatter.UI.ListBuilder</PackageProjectUrl>
     <PackageReleaseNotes>Alpha Release</PackageReleaseNotes>
     <Summary>Yatter ListBuilder items</Summary>
     <PackageTags>Yatter</PackageTags>
