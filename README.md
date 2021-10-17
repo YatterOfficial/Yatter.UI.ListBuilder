@@ -6,7 +6,7 @@ We are progressively building this solution from a custom ListView pattern that 
 
 # Yatter.UI.ListBuilder
 
-<a href="https://www.nuget.org/packages/Yatter.UI.ListBuilder/" target="_blank"><img alt="Nuget" src="https://img.shields.io/nuget/v/Yatter.UI.ListBuilder?color=blue&style=for-the-badge"></a>
+<a href="https://www.nuget.org/packages/Yatter.UI.ListBuilder/" target="_blank" rel="noreferrer noopener"><img alt="Nuget" src="https://img.shields.io/nuget/v/Yatter.UI.ListBuilder?color=blue&style=for-the-badge"></a>
 
 This library is a collection of lightweight List ```Description``` objects that allows JSON or XML list descritions to be generated or consumed, which when used in conjunction with a renderer that is designed to render such a list on a specific platform, will allow rapid list creation without needing to know much about the underlying technologies of the specific platform that the render is used upon.
 
