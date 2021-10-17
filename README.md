@@ -16,7 +16,7 @@ To date, a single renderer has been created for Blazor, and that allows lightwei
 - MacOS, using .Net Maui Blazor
 - Windows, using .Net Maui Blazor
 
-The Blazor component that will render the output of the ListBuilder herein is at [Yatter.UI.Blazor.Components](https://github.com/HarrisonOfTheNorth/Yatter.UI.Blazor.Components)
+The Blazor component that will render the output of the ListBuilder herein is at [Yatter.UI.Blazor.Components](https://github.com/YatterOfficial/Yatter.UI.Blazor.Components)
 
 The Demo that integrates both of these Libraries, is at [Yatter API](https://github.com/HarrisonOfTheNorth/Yatter)
 
