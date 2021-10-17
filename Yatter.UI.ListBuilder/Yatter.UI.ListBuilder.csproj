@@ -2,20 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageVersion>0.0.3</PackageVersion>
+    <PackageVersion>0.0.4</PackageVersion>
     <Authors>Anthony Harrison</Authors>
     <Copyright>Anthony Harrison</Copyright>
     <PackageIconUrl>https://avatars.githubusercontent.com/u/92665945</PackageIconUrl>
     <NeutralLanguage>en-GB</NeutralLanguage>
-    <PackageLicenseUrl>https://github.com/YatterOfficial/Yatter.UI.ListBuilder/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Owners>Anthony Harrison</Owners>
     <PackageProjectUrl>https://github.com/YatterOfficial/Yatter.UI.ListBuilder</PackageProjectUrl>
-    <PackageReleaseNotes>Alpha Release</PackageReleaseNotes>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReleaseNotes>Alpha Release. Added Nuget PackageLicenseExpression and PackageLicenseExpression</PackageReleaseNotes>
     <Summary>Yatter ListBuilder items</Summary>
     <PackageTags>Yatter</PackageTags>
     <Title>Yatter.UI.ListBuilder</Title>
-    <Description>Yatter ListBuilder items</Description>
+    <Description>Yatter ListBuilder DTOs that are designed to be used in conjunction with a parallel Component renderer for a specific platform, for example, for Blazor, using the package Yatter.UI.Blazor.Components, for XAML, using the package Yatter.UI.Xaml.Components, and for a Net Interactive Notebook, using the package Yatter.UI.NetInteractiveNotebook.Components</Description>
     <PackageId>Yatter.UI.ListBuilder</PackageId>
     <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
@@ -27,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <None Include="icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Framework\" />
