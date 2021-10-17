@@ -20,4 +20,4 @@ The Blazor component that will render the output of the ListBuilder herein is at
 
 The Demo that integrates both of these Libraries, is at [Yatter API](https://github.com/HarrisonOfTheNorth/Yatter)
 
-This demo also uses our ResponsiveHttpClient at [https://github.com/HarrisonOfTheNorth/Yatter.Http](https://github.com/YatterOfficial/Yatter.Http)
+This demo also uses our ResponsiveHttpClient at [https://github.com/YatterOfficial/Yatter.Http](https://github.com/YatterOfficial/Yatter.Http)
