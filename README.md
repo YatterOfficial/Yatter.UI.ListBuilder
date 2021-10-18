@@ -10,7 +10,7 @@ We are progressively building this solution from a custom ListView pattern that 
 
 ![GitHub](https://img.shields.io/github/license/yatterofficial/Yatter.UI.ListBuilder?style=for-the-badge)
 
-<a href="https://www.fuget.org/packages/Yatter.UI.ListBuilder/0.0.4/"><img src="https://www.fuget.org/packages/Yatter.UI.ListBuilder/badge.svg" /></a>
+[![Yatter.UI.ListBuilder on fuget.org](https://www.fuget.org/packages/Yatter.UI.ListBuilder/badge.svg)](https://www.fuget.org/packages/Yatter.UI.ListBuilder)
 
 This library is a collection of lightweight List ```Description``` objects that allows JSON or XML list descritions to be generated or consumed, which when used in conjunction with a renderer that is designed to render such a list on a specific platform, will allow rapid list creation without needing to know much about the underlying technologies of the specific platform that the render is used upon.
 
